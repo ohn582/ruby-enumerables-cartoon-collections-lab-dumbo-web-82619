@@ -21,7 +21,8 @@ end
 def long_planeteer_calls(words)
   test = false
   long_planeteer_calls.each do |call|
-    if call.length > 
+    if 4 < call.length
+      
 end
 
 def find_the_cheese# code an argument here
