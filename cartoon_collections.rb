@@ -44,10 +44,10 @@ end
 
 
 
-def find_the_cheese(cheese)
+def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  cheese.find do |cheese|
+  cfood.find do |cheese|
     cheese_types.include?(cheese)
   end
 end
