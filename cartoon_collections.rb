@@ -22,7 +22,7 @@ def long_planeteer_calls(words)
   test = false
   long_planeteer_calls.each do |call|
     if 4 < call.length
-      return true
+      test =  true
     end
   end
   test
