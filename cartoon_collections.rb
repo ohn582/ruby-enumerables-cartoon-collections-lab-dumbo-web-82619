@@ -19,13 +19,13 @@ end
 
 
 def long_planeteer_calls(words)
-  answer = false
+  say = false
   long_planeteer_calls.each do |call|
     if 4 < call.length
-      answer = true
+      say = true
     end
   end
-  answer
+  say
 end
 
 
