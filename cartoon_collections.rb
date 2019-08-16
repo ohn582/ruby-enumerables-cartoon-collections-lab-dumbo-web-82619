@@ -24,7 +24,10 @@ def long_planeteer_calls(words)
     if 4 < call.length
       say = true
     end
+  end
+  say
 end
+
 
 
 
